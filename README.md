@@ -7,7 +7,7 @@ The **To-Do List App** is a task management application designed for both **web 
 - Provide a **simple and user-friendly** interface for task management.  
 - Enable **real-time synchronization** of tasks across web and mobile.  
 - Allow users to **set reminders and notifications** for important tasks.  
-- Implement **authentication** to store user-specific tasks.  
+- Implement **authentication** to store user-specific tasks.
 - Ensure **offline support**, allowing users to manage tasks without an internet connection.  
 
 ## **Pages and Navigation**  
