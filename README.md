@@ -51,6 +51,8 @@ The **To-Do List App** is a task management application designed for both **web 
 - Firebase Authentication  
 - OR JWT (JSON Web Tokens) for session management  
 
-
+## Layout Image
+<img src="./docs/wireframe/todo-app-web-wireframe.svg"/>
+<img src="./docs/wireframe/todo-app-wireframe.svg"/>
 
 ---

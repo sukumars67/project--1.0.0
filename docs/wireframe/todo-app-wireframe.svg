@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200">
+  <!-- Background -->
+  <rect width="800" height="1200" fill="#f5f5f5"/>
+  
+  <!-- Login Page -->
+  <g transform="translate(50, 50)">
+    <rect width="300" height="400" fill="white" rx="10"/>
+    <text x="20" y="40" font-weight="bold">Login Page</text>
+    <rect x="30" y="70" width="240" height="40" fill="#eee" rx="5"/>
+    <text x="45" y="95" fill="#666">Email</text>
+    <rect x="30" y="120" width="240" height="40" fill="#eee" rx="5"/>
+    <text x="45" y="145" fill="#666">Password</text>
+    <rect x="30" y="180" width="240" height="40" fill="#4A90E2" rx="5"/>
+    <text x="130" y="205" fill="white" text-anchor="middle">Login</text>
+    <rect x="30" y="240" width="240" height="40" fill="#eee" rx="5"/>
+    <text x="130" y="265" fill="#666" text-anchor="middle">Google Login</text>
+  </g>
+
+  <!-- Dashboard -->
+  <g transform="translate(400, 50)">
+    <rect width="350" height="400" fill="white" rx="10"/>
+    <text x="20" y="40" font-weight="bold">Dashboard</text>
+    
+    <!-- Navigation Bar -->
+    <rect x="0" y="0" width="350" height="50" fill="#4A90E2" rx="10 10 0 0"/>
+    <circle cx="30" y="25" r="15" fill="white"/>
+    <text x="175" y="30" fill="white" text-anchor="middle">Dashboard</text>
+    
+    <!-- Task Categories -->
+    <g transform="translate(20, 70)">
+      <rect width="310" height="60" fill="#f8f8f8" rx="5"/>
+      <text x="10" y="35">Pending Tasks (3)</text>
+    </g>
+    
+    <g transform="translate(20, 140)">
+      <rect width="310" height="60" fill="#f8f8f8" rx="5"/>
+      <text x="10" y="35">Completed Tasks (5)</text>
+    </g>
+    
+    <g transform="translate(20, 210)">
+      <rect width="310" height="60" fill="#f8f8f8" rx="5"/>
+      <text x="10" y="35">Important Tasks (2)</text>
+    </g>
+    
+    <!-- Add Task Button -->
+    <circle cx="300" cy="350" r="25" fill="#4A90E2"/>
+    <text x="300" y="358" fill="white" text-anchor="middle" font-size="24">+</text>
+  </g>
+
+  <!-- Task Detail Page -->
+  <g transform="translate(50, 500)">
+    <rect width="300" height="400" fill="white" rx="10"/>
+    <text x="20" y="40" font-weight="bold">Task Detail</text>
+    
+    <rect x="20" y="70" width="260" height="40" fill="#f8f8f8" rx="5"/>
+    <text x="30" y="95">Task Title</text>
+    
+    <rect x="20" y="120" width="260" height="80" fill="#f8f8f8" rx="5"/>
+    <text x="30" y="145">Description</text>
+    
+    <rect x="20" y="210" width="120" height="40" fill="#f8f8f8" rx="5"/>
+    <text x="30" y="235">Due Date</text>
+    
+    <rect x="150" y="210" width="130" height="40" fill="#f8f8f8" rx="5"/>
+    <text x="160" y="235">Priority</text>
+    
+    <rect x="20" y="340" width="125" height="40" fill="#4A90E2" rx="5"/>
+    <text x="83" y="365" fill="white" text-anchor="middle">Save</text>
+    
+    <rect x="155" y="340" width="125" height="40" fill="#ff4444" rx="5"/>
+    <text x="218" y="365" fill="white" text-anchor="middle">Delete</text>
+  </g>
+
+  <!-- Settings Page -->
+  <g transform="translate(400, 500)">
+    <rect width="350" height="400" fill="white" rx="10"/>
+    <text x="20" y="40" font-weight="bold">Settings</text>
+    
+    <g transform="translate(20, 70)">
+      <rect width="310" height="50" fill="#f8f8f8" rx="5"/>
+      <text x="10" y="30">Dark Mode</text>
+      <circle cx="280" cy="25" r="15" fill="#4A90E2"/>
+    </g>
+    
+    <g transform="translate(20, 130)">
+      <rect width="310" height="50" fill="#f8f8f8" rx="5"/>
+      <text x="10" y="30">Notifications</text>
+      <circle cx="280" cy="25" r="15" fill="#4A90E2"/>
+    </g>
+    
+    <rect x="20" y="340" width="310" height="40" fill="#ff4444" rx="5"/>
+    <text x="175" y="365" fill="white" text-anchor="middle">Logout</text>
+  </g>
+
+  <!-- Profile Page -->
+  <g transform="translate(50, 950)">
+    <rect width="300" height="200" fill="white" rx="10"/>
+    <text x="20" y="40" font-weight="bold">Profile</text>
+    
+    <circle cx="150" cy="100" r="40" fill="#4A90E2"/>
+    <text x="150" y="165" text-anchor="middle">Change Profile Picture</text>
+  </g>
+</svg>
