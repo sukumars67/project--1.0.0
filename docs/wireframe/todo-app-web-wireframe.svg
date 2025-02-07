@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f5f5f5"/>
+  
+  <!-- Web Login Page -->
+  <g transform="translate(50, 50)">
+    <rect width="500" height="400" fill="white" rx="10"/>
+    <text x="200" y="50" font-size="24" font-weight="bold" text-anchor="middle">Login to TodoMaster</text>
+    
+    <!-- Login Form -->
+    <g transform="translate(100, 100)">
+      <rect width="300" height="50" fill="#f8f8f8" rx="5"/>
+      <text x="15" y="30" fill="#666">Email</text>
+      
+      <rect y="70" width="300" height="50" fill="#f8f8f8" rx="5"/>
+      <text x="15" y="100" fill="#666">Password</text>
+      
+      <rect y="140" width="300" height="50" fill="#4A90E2" rx="5"/>
+      <text x="150" y="170" fill="white" text-anchor="middle">Sign In</text>
+      
+      <rect y="210" width="300" height="50" fill="#eee" rx="5"/>
+      <text x="150" y="240" fill="#666" text-anchor="middle">Continue with Google</text>
+    </g>
+  </g>
+
+  <!-- Web Dashboard -->
+  <g transform="translate(600, 50)">
+    <rect width="550" height="800" fill="white" rx="10"/>
+    
+    <!-- Top Navigation -->
+    <rect width="550" height="60" fill="#4A90E2" rx="10 10 0 0"/>
+    <text x="30" y="38" fill="white" font-size="24">Dashboard</text>
+    <circle cx="500" cy="30" r="20" fill="white"/>
+    
+    <!-- Sidebar -->
+    <g transform="translate(0, 60)">
+      <rect width="200" height="740" fill="#f8f8f8"/>
+      
+      <!-- Navigation Items -->
+      <g transform="translate(20, 30)">
+        <rect width="160" height="40" fill="#4A90E2" rx="5"/>
+        <text x="80" y="25" fill="white" text-anchor="middle">All Tasks</text>
+        
+        <rect y="50" width="160" height="40" fill="white" rx="5"/>
+        <text x="80" y="75" fill="#666" text-anchor="middle">Important</text>
+        
+        <rect y="100" width="160" height="40" fill="white" rx="5"/>
+        <text x="80" y="125" fill="#666" text-anchor="middle">Completed</text>
+        
+        <rect y="150" width="160" height="40" fill="white" rx="5"/>
+        <text x="80" y="175" fill="#666" text-anchor="middle">Categories</text>
+      </g>
+    </g>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(220, 80)">
+      <text x="0" y="30" font-size="20" font-weight="bold">All Tasks</text>
+      
+      <!-- Task Items -->
+      <g transform="translate(0, 50)">
+        <rect width="300" height="60" fill="#f8f8f8" rx="5"/>
+        <text x="15" y="35">Complete project proposal</text>
+        <text x="15" y="50" fill="#666" font-size="12">Due Today</text>
+        
+        <rect y="70" width="300" height="60" fill="#f8f8f8" rx="5"/>
+        <text x="15" y="105">Team meeting prep</text>
+        <text x="15" y="120" fill="#666" font-size="12">Tomorrow</text>
+        
+        <rect y="140" width="300" height="60" fill="#f8f8f8" rx="5"/>
+        <text x="15" y="175">Review documentation</text>
+        <text x="15" y="190" fill="#666" font-size="12">Next Week</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Settings Panel -->
+  <g transform="translate(50, 500)">
+    <rect width="500" height="350" fill="white" rx="10"/>
+    <text x="30" y="50" font-size="24" font-weight="bold">Settings</text>
+    
+    <!-- Settings Options -->
+    <g transform="translate(30, 80)">
+      <rect width="440" height="60" fill="#f8f8f8" rx="5"/>
+      <text x="20" y="35">Dark Mode</text>
+      <circle cx="400" cy="30" r="15" fill="#4A90E2"/>
+      
+      <rect y="70" width="440" height="60" fill="#f8f8f8" rx="5"/>
+      <text x="20" y="105">Email Notifications</text>
+      <circle cx="400" cy="100" r="15" fill="#4A90E2"/>
+      
+      <rect y="140" width="440" height="60" fill="#f8f8f8" rx="5"/>
+      <text x="20" y="175">Desktop Notifications</text>
+      <circle cx="400" cy="170" r="15" fill="#4A90E2"/>
+    </g>
+  </g>
+</svg>
