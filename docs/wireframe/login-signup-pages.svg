@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#f5f5f5"/>
+  
+  <!-- Login Page -->
+  <g transform="translate(50, 50)">
+    <rect width="400" height="500" fill="white" rx="10"/>
+    <text x="30" y="50" font-size="24" font-weight="bold">Login</text>
+    
+    <!-- Form -->
+    <g transform="translate(30, 100)">
+      <text x="0" y="15" fill="#666">Email</text>
+      <rect y="25" width="340" height="45" fill="#f8f8f8" rx="5"/>
+      
+      <text x="0" y="105" fill="#666">Password</text>
+      <rect y="115" width="340" height="45" fill="#f8f8f8" rx="5"/>
+      
+      <text x="0" y="190" fill="#4A90E2" font-size="14">Forgot Password?</text>
+      
+      <rect y="220" width="340" height="45" fill="#4A90E2" rx="5"/>
+      <text x="170" y="248" fill="white" text-anchor="middle">Login</text>
+      
+      <rect y="280" width="340" height="45" fill="#eee" rx="5"/>
+      <text x="170" y="308" fill="#666" text-anchor="middle">Continue with Google</text>
+      
+      <text x="85" y="370" fill="#666">Don't have an account?</text>
+      <text x="235" y="370" fill="#4A90E2">Sign up</text>
+    </g>
+  </g>
+  
+  <!-- Signup Page -->
+  <g transform="translate(550, 50)">
+    <rect width="400" height="500" fill="white" rx="10"/>
+    <text x="30" y="50" font-size="24" font-weight="bold">Create Account</text>
+    
+    <!-- Form -->
+    <g transform="translate(30, 100)">
+      <text x="0" y="15" fill="#666">Full Name</text>
+      <rect y="25" width="340" height="45" fill="#f8f8f8" rx="5"/>
+      
+      <text x="0" y="105" fill="#666">Email</text>
+      <rect y="115" width="340" height="45" fill="#f8f8f8" rx="5"/>
+      
+      <text x="0" y="195" fill="#666">Password</text>
+      <rect y="205" width="340" height="45" fill="#f8f8f8" rx="5"/>
+      
+      <rect y="280" width="340" height="45" fill="#4A90E2" rx="5"/>
+      <text x="170" y="308" fill="white" text-anchor="middle">Sign Up</text>
+      
+      <text x="85" y="370" fill="#666">Already have an account?</text>
+      <text x="235" y="370" fill="#4A90E2">Login</text>
+    </g>
+  </g>
+</svg>

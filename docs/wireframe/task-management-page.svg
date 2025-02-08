@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#f5f5f5"/>
+  
+  <!-- Main Container -->
+  <g transform="translate(50, 50)">
+    <rect width="700" height="900" fill="white" rx="10"/>
+    
+    <!-- Header -->
+    <rect width="700" height="60" fill="#4A90E2" rx="10 10 0 0"/>
+    <text x="30" y="38" fill="white" font-size="24">Task Details</text>
+    
+    <!-- Task Form -->
+    <g transform="translate(50, 100)">
+      <!-- Title -->
+      <text x="0" y="30" font-weight="bold">Task Title</text>
+      <rect y="40" width="600" height="50" fill="#f8f8f8" rx="5"/>
+      
+      <!-- Description -->
+      <text x="0" y="130" font-weight="bold">Description</text>
+      <rect y="140" width="600" height="120" fill="#f8f8f8" rx="5"/>
+      
+      <!-- Due Date -->
+      <text x="0" y="300" font-weight="bold">Due Date</text>
+      <rect y="310" width="290" height="50" fill="#f8f8f8" rx="5"/>
+      
+      <!-- Priority -->
+      <text x="310" y="300" font-weight="bold">Priority</text>
+      <rect x="310" y="310" width="290" height="50" fill="#f8f8f8" rx="5"/>
+      
+      <!-- Category -->
+      <text x="0" y="400" font-weight="bold">Category</text>
+      <rect y="410" width="600" height="50" fill="#f8f8f8" rx="5"/>
+      
+      <!-- Reminders -->
+      <text x="0" y="500" font-weight="bold">Reminders</text>
+      <rect y="510" width="600" height="50" fill="#f8f8f8" rx="5"/>
+      
+      <!-- Action Buttons -->
+      <g transform="translate(0, 600)">
+        <rect width="290" height="50" fill="#4A90E2" rx="5"/>
+        <text x="145" y="32" fill="white" text-anchor="middle">Save Task</text>
+        
+        <rect x="310" width="290" height="50" fill="#ff4444" rx="5"/>
+        <text x="455" y="32" fill="white" text-anchor="middle">Delete Task</text>
+      </g>
+    </g>
+  </g>
+</svg>

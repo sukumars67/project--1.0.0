@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+  
+  <!-- Main Container -->
+  <g transform="translate(50, 50)">
+    <rect width="1100" height="700" fill="white" rx="10"/>
+    
+    <!-- Top Navigation -->
+    <rect width="1100" height="60" fill="#4A90E2" rx="10 10 0 0"/>
+    <text x="50" y="38" fill="white" font-size="24">Dashboard</text>
+    <circle cx="1020" cy="30" r="20" fill="white"/>
+    
+    <!-- Task Categories -->
+    <g transform="translate(50, 100)">
+      <!-- Pending Tasks -->
+      <rect width="300" height="500" fill="#f8f8f8" rx="10"/>
+      <text x="20" y="40" font-size="18" font-weight="bold">Pending Tasks</text>
+      
+      <!-- Task Items -->
+      <g transform="translate(20, 60)">
+        <rect width="260" height="80" fill="white" rx="5"/>
+        <text x="15" y="30">Complete project proposal</text>
+        <text x="15" y="50" fill="#666" font-size="14">Due: Today</text>
+        <circle cx="235" cy="40" r="10" fill="#ff4444"/>
+      </g>
+    </g>
+    
+    <!-- Completed Tasks -->
+    <g transform="translate(400, 100)">
+      <rect width="300" height="500" fill="#f8f8f8" rx="10"/>
+      <text x="20" y="40" font-size="18" font-weight="bold">Completed Tasks</text>
+      
+      <!-- Task Items -->
+      <g transform="translate(20, 60)">
+        <rect width="260" height="80" fill="white" rx="5"/>
+        <text x="15" y="30" fill="#666"><tspan text-decoration="line-through">Team meeting prep</tspan></text>
+        <text x="15" y="50" fill="#666" font-size="14">Completed: Yesterday</text>
+        <circle cx="235" cy="40" r="10" fill="#4CAF50"/>
+      </g>
+    </g>
+    
+    <!-- Important Tasks -->
+    <g transform="translate(750, 100)">
+      <rect width="300" height="500" fill="#f8f8f8" rx="10"/>
+      <text x="20" y="40" font-size="18" font-weight="bold">Important Tasks</text>
+      
+      <!-- Task Items -->
+      <g transform="translate(20, 60)">
+        <rect width="260" height="80" fill="white" rx="5"/>
+        <text x="15" y="30">Client presentation</text>
+        <text x="15" y="50" fill="#666" font-size="14">Due: Tomorrow</text>
+        <circle cx="235" cy="40" r="10" fill="#FFC107"/>
+      </g>
+    </g>
+    
+    <!-- Add Task Button -->
+    <circle cx="1020" cy="630" r="30" fill="#4A90E2"/>
+    <text x="1020" y="638" fill="white" text-anchor="middle" font-size="24">+</text>
+  </g>
+</svg>
